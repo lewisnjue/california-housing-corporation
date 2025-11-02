@@ -1,10 +1,8 @@
 scikit-learn
-pandas 
+pandas
 numpy
-<<<<<<< HEAD
-matplotlib 
-=======
 matplotlib
 streamlit
 joblib
->>>>>>> 939a18b (added visualization using treamlite)
+jupyter
+gdown

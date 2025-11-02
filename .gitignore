@@ -1,9 +1,38 @@
-env/ 
-datasets/ 
-*.pkl 
-*.joblib 
-env/ 
-datasets/ 
-*.joblib 
-*.pkl 
+# Virtual Environment
+env/
+venv/
+.venv/
+
+# Python Cache
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dataset files (will be auto-downloaded)
+datasets/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files (excluded from repository - too large for git)
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
