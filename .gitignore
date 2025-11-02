@@ -2,3 +2,8 @@ env/
 datasets/ 
 *.pkl 
 *.joblib 
+env/ 
+datasets/ 
+*.joblib 
+*.pkl 
+__pycache__/
